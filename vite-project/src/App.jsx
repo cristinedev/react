@@ -1,0 +1,13 @@
+export const App =()=>{
+  return(
+  
+  <h1> título principal </h1>
+
+
+  )
+
+  
+
+}
+
+export default App
