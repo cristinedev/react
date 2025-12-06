@@ -1,13 +1,16 @@
-export const App =()=>{
-  return(
-  
-  <h1> título principal </h1>
+import { Header } from "./components/header"
+import { Main } from "./components/main"
+
+export const App = () => {
+  return (
+    <>
 
 
+      <Header />
+      <Main />
+
+    </>
   )
-
-  
-
 }
 
 export default App

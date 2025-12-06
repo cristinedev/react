@@ -1,13 +1,12 @@
-
-
+import './style.css'
 
 //Estruturação do header 
-export const Header = () =>{
+export const Header = () => {
     return (
         <header>
-        <h1> Logo </h1>
+            <h1> Logo </h1>
 
-        <button> Login </button>
+            <button> Login </button>
         </header>
     )
 }
